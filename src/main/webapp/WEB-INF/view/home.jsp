@@ -15,6 +15,9 @@
 		</shiro:hasPermission>
 		<a href="#" onclick="updateRole('<%=request.getContextPath()%>/perm/delRole')">删除用户管理角色</a><br/>
 		<a href="#" onclick="updateRole('<%=request.getContextPath()%>/perm/addRole')">添加用户管理角色</a><br/>
+		<shiro:hasRole name="dba">
+			<a href="<%=request.getContextPath()%>/user/addUser">添加用户</a><br/>
+		</shiro:hasRole>
 	</div>
 	<jsp:include page="./footer.jsp" />
 </body>
