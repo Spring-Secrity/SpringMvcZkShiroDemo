@@ -10,7 +10,7 @@ package com.anlu.shiro.utils;
  */
 public class Constants {
 	public static final int ZK_SESSION_TIMEOUT = 3000;
-	public static final String ZK_SERVERS = "192.168.70.135:2181";
+	public static final String ZK_SERVERS = "192.168.1.103:2181";
 	public static final String ZK_ZNODE_SHIRO_CACHE = "/shiro";
 	
 	/**

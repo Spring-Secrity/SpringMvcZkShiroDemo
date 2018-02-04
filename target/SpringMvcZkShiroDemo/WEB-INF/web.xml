@@ -6,9 +6,9 @@
          version="3.0">
   <display-name>ShiroSpring</display-name>
 
-  <!--<listener>-->
-    <!--<listener-class>org.chench.test.shiro.spring.listener.ShiroCacheListener</listener-class>-->
-  <!--</listener>-->
+  <listener>
+    <listener-class>com.anlu.shiro.listener.ShiroCacheLisener</listener-class>
+  </listener>
   <!--<listener>-->
     <!--<listener-class>org.chench.test.shiro.spring.listener.TaSessionListener</listener-class>-->
   <!--</listener>-->
